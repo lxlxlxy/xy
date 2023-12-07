@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .img-box {
+	width: 261px;
+	height: 110px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+        }
+
+        .img-box img {
+	width: 100%;
+	height: 100%;
+        }
+
+        .img-box::before, .img-box::after {
+            z-index: 1000;
+            opacity: 0;
+        }
+
+        .img-box::before {
+	content: " ";
+	border-left: 145px solid #000;
+	border-right: 116px solid #000;
+	border-bottom: 20px solid #000;
+	border-top: 90px solid #000;
+	position: absolute;
+        }
+
+        .img-box::after {
+            content: attr(data-tip);
+            top: -100%;
+            color: #ffffff;
+            position: relative;
+        }
+
+        .img-box:hover::before {
+            opacity: 0.5;
+        }
+
+        .img-box:hover::after {
+            opacity: 1;
+        }
+
+    </style>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" rev="stylesheet" href="../lxy721/css/style.css" type="text/css" />
+<title>up安利</title>
+</head>
+<body>
+<div class="nb_body">
+  <div class="nb_main">
+    <div class="header">
+      <div class="homeName">
+        <div class="myFamilyName"><i>黎欣雨的主页</i></div>
+        <div class="myFamilyInfo">
+          <marquee behavior="scroll" direction="left" width="100%" scrollamount="2">
+          世上有多少个缤纷乐园任你行
+		</marquee>
+        </div>
+      </div>
+    </div>
+    <div class="nb_are nb_nav">
+      <div class="nav2">
+        <ul>
+          <li><a href="../lxy721/index.html">关于我</a></li>
+          <li><a href="../lxy721/mymusic.html">音乐</a></li>
+          <li><a href="../lxy721/photo.html">相片</a></li>
+          <li><a href="../lxy721/words.html">文字</a></li>
+          <li class="selected"><a href="../lxy721/myVideo.html">up安利</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nb_are nb_smt"></div>
+    <div class="nb_are nb_cnt">
+      <div class="mainLeft">
+        <div class="mainLeftTop"></div>
+        <div class="mainLeftCenter">
+          <div class="left-title"><b>个人简介</b></div>
+          <div class="left-photo"><img src="../lxy721/images/11.jpg" /></div>
+         
+          <div class="left-info">
+            <ul>
+              <li>姓名：黎欣雨</li>
+              <li>性别：女</li>
+              <li>年龄：18</li>
+              <li>邮箱:2369391705@qq.com</li>
+              <li>家乡：重庆</li>
+			  <li>爱好：音乐，摄影，看书，旅游</li>
+            </ul>
+			<p><u><a href="index.html">返回个人主页</a></u></p>
+          </div> 
+        </div>
+      </div>
+      <div class="mainRight">
+        <div class="mainRightTop"></div>
+        <div class="mainRightCenter" style="height:700px">
+			
+			
+          <div class="Rtitle"><b>我喜欢的up（鼠标移至图片查看介绍）</b></div>
+          
+			
+			  <div class="Rrain" style="height:auto">
+            <ul>
+                  <div class="img-box" data-tip="一位爱讲美国动画的肝帝，代表作有《瑞克和莫蒂》，《爱，死亡与机器人》，善于发掘动画中的彩蛋和小细节">
+		      <img src="images/微信图片_202311302024331.png" width="519" height="209" alt=""/>
+					  
+					  
+					  
+					  </div>
+				<br><br><br><br><br>
+				
+				<div class="img-box" data-tip="一位喜欢分析港乐歌词的up，为你逐句解析，我最喜欢她为《某种老朋友》的歌词赏析，关于这首歌一共有两个视频，时长两小时">
+					<img src="images/微信图片_20231130202433.png" width="519" height="209" alt=""/></div>
+			  <br><br><br><br><br>
+				
+				<div class="img-box" data-tip="一位用动画形式画出各种历史事件，未解之谜，有趣故事的up，下饭必看！">
+					<img src="images/微信图片_202311302024333.png" width="519" height="209" alt=""/></div>
+				<br><br><br><br><br>
+				
+				<div class="img-box" data-tip="一位发布各种演唱会现场的up，可以让你拥有极致的现场体验，音质超高还高清">
+					<img src="images/微信图片_202311302024332.png" width="519" height="207" alt=""/></div>
+			  <br><br><br><br><br>
+				
+				<div class="img-box" data-tip="讲解知识点有趣还清晰，他不太标准的普通话让听网课变得有意思了，恶补c语言请来这里，视频封面还总结了该视频内的知识点">
+					<img src="images/微信图片_20231130202451.png" width="519" height="209" alt=""/></div>
+				
+            </ul>
+              
+			
+　</div>
+	    </div>
+      
+        
+        <div class="mainRightBottom"></div>
+    </div>
+      <div class="clearfix"></div>
+  </div>
+    <div class="nb_are nb_fot">
+      
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
